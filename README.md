@@ -6,6 +6,9 @@ Imagine you captured a nice video with your camcorder, compact camera or even ce
  Flask-Video-Stabilization Provide a reasonably easy and flexible way to stabilize (deshake) even strongly jiggled video clips
  ###### - Dedicated to all the video developers out there 
 
+### Demo : https://www.youtube.com/watch?v=7VkEyDUK-fc&feature=youtu.be
+
+
 #
 ##### Home Page
 ![image](https://user-images.githubusercontent.com/11213043/89710440-b3a2b100-d9a0-11ea-9c85-134296e35078.png)
