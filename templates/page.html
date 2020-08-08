@@ -1,0 +1,375 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Stabilization Demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">Video Stabilization Demo</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+
+
+
+    <div class="container">
+
+
+
+
+        <div class="row">
+
+
+
+
+
+            <div class="col-md-12">
+                <!-- fist title div  -->
+
+                <h1 class="title_first">
+                    Video Stabilization Completed
+                </h1>
+                <p class="sentence_after_title">
+                    Please find the output for the uploaded video with demographics
+                </p>
+
+ 
+
+
+
+
+
+            </div>
+            <div class="row">
+                <!-- second row  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="col-md-12">
+                <!-- the centre title div  -->
+
+                <div style=" text-align: center;">
+
+
+                <br>
+
+                <div class="container" align="centre">
+                    <a href="/return-files" target="blank"><button class='btn-blue'>Download!</button></a>
+               </div>
+
+
+<br>
+
+                    <p class="demographics">
+                        Demographics
+
+                    </p>
+                </div>
+
+
+
+            </div>
+
+            <div class="row">
+                <!-- 4th row  -->
+<br>
+                <div class="col-md-6">
+                    <!-- second column 1st column  -->
+                    <div class=" row">
+                        <div>
+                            <h3 class="input_text">
+                                Plot Trajectory
+                            </h3>
+
+
+                        </div>
+
+                        <div class="graph1">
+                            <img src="{{url_for('static', filename = 'img/plot_trajectory.png')}}" >
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-6">
+                    <!-- second column second column  -->
+                    <div class="row">
+                        <div>
+                            <h3 class="output_text">
+                                Plot Transforms
+                            </h3>
+                        </div>
+
+
+                        <div class="graph2">
+                            <img src="{{url_for('static', filename = 'img/plot_transforms.png')}}" >
+
+                         
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <style>
+        .title_first {
+
+
+            text-align: center;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 62px;
+            line-height: 76px;
+
+            color: #2077E9;
+        }
+
+
+        .sentence_after_title {
+
+
+            text-align: center;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 30px;
+
+            color: #000000;
+
+        }
+
+        .btn-blue {
+            --bg: hsl(220 90% 50%);
+            --bg-int: hsl(220 90% 58%);
+        }
+
+        button {
+            color: hsl(0 0% 96%);
+            background: var(--bg);
+            font-size: 20px;
+            margin: 14px;
+            font-family: inherit;
+            box-sizing: border-box;
+            padding: 14px 28px;
+            border: 0;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: .15s ease-in-out;
+            box-shadow: 0 4px 6px -1px hsl(0 0% 0% / .07), 0 2px 4px -1px hsl(0 0% 0% / .07);
+        }
+
+        button:hover,
+        button:focus {
+            background: var(--bg-int);
+        }
+
+        button:active {
+            transform: scale(.96);
+        }
+
+
+
+        .input_text {
+
+            width: 542px;
+            height: 79px;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 76px;
+            text-align: center;
+
+            color: #868686;
+
+        }
+
+        .output_text {
+
+            width: 542px;
+            height: 79px;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 76px;
+            text-align: center;
+
+            color: #868686;
+
+        }
+
+        .input_box {
+
+            width: 559px;
+            height: 358px;
+
+
+            background: #EEF2F5;
+            border-radius: 18px;
+        }
+
+        .output_box {
+
+            width: 559px;
+            height: 358px;
+
+
+            background: #D1E0EF;
+            border-radius: 18px;
+        }
+
+        .demographics {
+            /* Demographics ! */
+
+
+
+
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 62px;
+            line-height: 76px;
+            text-align: center;
+
+            color: #B0B0B0;
+        }
+
+
+        .graph1 {
+
+            width: 590px;
+            height: 337px;
+
+
+            background: #DFECFA;
+            border-radius: 18px;
+
+        }
+
+        .graph2 {
+
+
+            width: 587px;
+            height: 337px;
+
+
+            background: #E8EAED;
+            border-radius: 18px;
+
+        }
+    </style>
+
+
+
+
+    <script>
+        function stabilize() {
+            // console.log("button clicker")
+            alert('hello clicked');
+            location.href = "{{url_for('demo')}}"
+        }
+
+
+
+
+    </script>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
