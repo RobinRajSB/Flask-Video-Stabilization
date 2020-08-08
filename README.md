@@ -4,12 +4,17 @@
 Imagine you captured a nice video with your camcorder, compact camera or even cell phone while skiing, cycling or whatever sports and the video is basically just jiggled. Modern cameras come along with hardware stabilisation, however this does not work if you have really strong vibrations - rather the contrary sometimes this mechanisms start to oscillate. 
 
  Flask-Video-Stabilization Provide a reasonably easy and flexible way to stabilize (deshake) even strongly jiggled video clips
- ##### Dedicated to all the video developers out there 
-#
-#
-#
+ ###### - Dedicated to all the video developers out there 
 
-
+#
+##### Home Page
+![image](https://user-images.githubusercontent.com/11213043/89710440-b3a2b100-d9a0-11ea-9c85-134296e35078.png)
+#
+##### Upload Page
+![image](https://user-images.githubusercontent.com/11213043/89710464-e482e600-d9a0-11ea-8e21-e17e3ef184b1.png)
+#
+##### Demographics Page
+![image](https://user-images.githubusercontent.com/11213043/89710492-2a3fae80-d9a1-11ea-901a-fe1783236104.png)
 # Features!
 
   - 👷 Stabilize video
